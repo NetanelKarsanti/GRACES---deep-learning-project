@@ -1,1 +1,2 @@
-# GRACES---deep-learning-project
+# Deep learning project
+## GRACES Algorithm  
