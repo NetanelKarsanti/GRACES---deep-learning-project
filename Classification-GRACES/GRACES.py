@@ -42,9 +42,7 @@ class GraphConvNet(nn.Module):
         
     @property
     def device(self):
-        """
-        Returns the device on which the model is. Can be useful in some situations.
-        """
+
         return next(self.parameters()).device
 
 
