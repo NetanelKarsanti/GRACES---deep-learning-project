@@ -23,4 +23,5 @@ With the adjustments we've made, you can now thoroughly test the algorithm using
 When preparing the data set, ensure it is in MATLAB format. If you don't have a MATLAB file, don't worry, as we have developed a function called "pandas2matlab.py" that can convert your data set from pandas format to MATLAB format.<br/>
 Please note that the features should be arranged on the left side, while the rightmost column should contain the labels.
 ## ${{\color{blue} Use\ of\ our\ dataset}}$
-If you choose to run on our data, you can download it from here: [Div2 - Avocado rip](https://drive.google.com/file/d/1BSMCcL70B7l2qSsFt9UuDqZE9YH7ex_a/view?usp=sharing)
+If you choose to run on our data, you can download it from here :  [Div2 - Avocado rip](https://drive.google.com/file/d/1BSMCcL70B7l2qSsFt9UuDqZE9YH7ex_a/view?usp=sharing) .
+Of course, you also need the channel dictionary which maps the selected features in the graph mesh to the channels they belong to. You can download it here: [Chanels Map](https://drive.google.com/file/d/1WDFbvx429OtqBGTwOGFOtsu0nm_Wv6UA/view?usp=sharing) 
