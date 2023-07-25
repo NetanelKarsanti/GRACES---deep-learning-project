@@ -159,7 +159,7 @@ if __name__ == "__main__":
     max_features = 50
     n_iters = 2
     n_repeats = 2
-    save = True
+    save =  False # if you want to save the resulte you need to change it 
     for p in range(max_features):
         result = main(name=name, n_features=p + 1, n_iters=n_iters, n_repeats=n_repeats, futers_map=_map, seed_=42)
         print('=========================== '+str(p+1)+' : Features'+' ==============================')
@@ -171,7 +171,7 @@ if __name__ == "__main__":
         print(' Reliability of GNN                           : ' + str(result['Reliability of GNN']*100) + '%')
         print('========================================================================')
 
-        if save:
-            os.chdir('/home/ARO.local/netanelk/Projects/Featuer_selection_res/Normal_by_564/')
+        if save: 
+            os.chdir('/home/ARO.local/netanelk/Projects/Featuer_selection_res/Normal_by_564/') # directory that you want to save
             joblib.dump(result,'Process_for_'+str(p+1)+'features.joblib')
-            os.chdir('/home/ARO.local/netanelk/Projects/Feature_selection_reg/')
+            os.chdir('/home/ARO.local/netanelk/Projects/Feature_selection_reg/') # dataframe directory
