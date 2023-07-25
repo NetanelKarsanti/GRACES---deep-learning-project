@@ -92,7 +92,7 @@ if __name__ == "__main__":
     max_features = 20
     n_iters = 2
     n_repeats = 2
-    save = True
+    save = False
 
     for p in range(max_features):
         result = main(name=name, n_features=p+1, n_iters=n_iters, n_repeats=n_repeats)
@@ -102,7 +102,7 @@ if __name__ == "__main__":
         print(' All indexs from Feature selections process : ' + str(result['selction']))
         print('========================================================================')
         if save:
-            os.chdir(r'/home/ARO.local/netanelk/Projects/Featuer_selection_res/Normal_by_564_classif/')
+            os.chdir(r'/home/ARO.local/netanelk/Projects/Featuer_selection_res/Normal_by_564_classif/') # directory that you want to save 
             joblib.dump(result,str(p+1)+'_res.joblib')
-            os.chdir(r'/home/ARO.local/netanelk/Projects/feature_selection_clas/')
+            os.chdir(r'/home/ARO.local/netanelk/Projects/feature_selection_clas/') # your data directory 
 
