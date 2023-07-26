@@ -17,7 +17,7 @@ We will present the order of the files in this project :
 ```
 ## ${{\color{blue} Algorithm\ Testing\ Instructions}}$
 With the adjustments we've made, you can now thoroughly test the algorithm using two study tasks: classification and regression. Each study task has its dedicated folder for convenience and organization.<br/>
-**$\color[rgb]{1,0,0} Note$** ::Inside the reel_test and real_test_reg files, you will find a save parameter set to FALSE. This parameter serves the purpose of saving the model performance in the joblib file. If you decide to save the model performance you will need to change it to TRUE and update the save address, you can still view the results in real time by running the appropriate test file (reel_test.py or real_test_reg.py)
+**$\color[rgb]{1,0,0} Note$** :Inside the reel_test and real_test_reg files, you will find a save parameter set to FALSE. This parameter serves the purpose of saving the model performance in the joblib file. If you decide to save the model performance you will need to change it to TRUE and update the save address, you can still view the results in real time by running the appropriate test file (reel_test.py or real_test_reg.py)
 <br/>
 ## ${{\color{blue}requirement \ for\ your\ dataset}}$
 When preparing the data set, ensure it is in MATLAB format. If you don't have a MATLAB file, don't worry, as we have developed a function called "pandas2matlab.py" that can convert your data set from pandas format to MATLAB format.<br/>
