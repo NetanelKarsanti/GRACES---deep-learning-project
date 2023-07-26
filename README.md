@@ -26,4 +26,5 @@ Please note that the features should be arranged on the left side, while the rig
 If you choose to run on our data, you can download it from here :  [Div2 - Avocado rip](https://drive.google.com/file/d/1BSMCcL70B7l2qSsFt9UuDqZE9YH7ex_a/view?usp=sharing) .
 Of course, you also need the channel dictionary which maps the selected features in the graph mesh to the channels they belong to. You can download it here: [Chanels Map](https://drive.google.com/file/d/1WDFbvx429OtqBGTwOGFOtsu0nm_Wv6UA/view?usp=sharing) 
 
-#### ${{\color{green} this\ project\ was\ completed\ in\ collaboration\ with\ Netanel\ Karsanti\ and\ Dor\ Kolsky\ in\ the\ deep\ learning\ course\ taught\ by\ Prof.\ Ari\ Pakman.}}$
+### ${{\color{green} this\ project\ was\ completed\ in\ collaboration\ with\ Netanel\ Karsanti\ and\ Dor\ Kolsky\}}$
+### ${{\color{green} in\ the\ deep\ learning\ course\ taught\ by\ Prof.\ Ari\ Pakman.}}$
